@@ -1,0 +1,37 @@
+.idea/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+Temp/
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend-react/.pnp
+frontend-react/node_modules
+frontend-react/.pnp.js
+
+# testing
+frontend-react/coverage
+
+# production
+frontend-react/build
+
+# misc
+frontend-react/.DS_Store
+frontend-react/.env.local
+frontend-react/.env.development.local
+frontend-react/.env.test.local
+frontend-react/.env.production.local
+
+frontend-react/npm-debug.log*
+frontend-react/yarn-debug.log*
+frontend-react/yarn-error.log*
