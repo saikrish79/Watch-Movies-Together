@@ -14,7 +14,7 @@ public class SocketConfiguration implements WebSocketConfigurer {
     @Override
     public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
         registry.addHandler(socketController(), "/socket")
-                .setAllowedOrigins("*");
+                .setAllowedOrigins("http://localhost:3000").withSockJS();
     }
 
     @Bean
